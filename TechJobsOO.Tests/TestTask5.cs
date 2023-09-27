@@ -10,7 +10,7 @@ namespace TechJobsOO.Tests
         //Uses jobs from the Job class.
         //Tests are numbered.
 
-        /*TODO: Task 5: Remove this line to uncomment the tests
+        ///*TODO: Task 5: Remove this line to uncomment the tests
 
         //Unit Test 1:  TestToStringStartsAndEndsWithNewLine  -----------------------
 
@@ -181,7 +181,7 @@ namespace TechJobsOO.Tests
             return Regex.Replace(text, pattern, Environment.NewLine);
         }
         
-        TODO: Task 5: Remove this line to uncomment the tests*/
+        //TODO: Task 5: Remove this line to uncomment the tests*/
     }
 
 }
