@@ -1,6 +1,4 @@
-﻿
-using System.Diagnostics.Metrics;
-using System.Text.RegularExpressions;
+﻿using System.Text.RegularExpressions;
 using TechJobs.Tests;
 
 namespace TechJobsOO.Tests
@@ -12,7 +10,7 @@ namespace TechJobsOO.Tests
         //Uses jobs from the Job class.
         //Tests are numbered.
 
-        /*TODO: Task 5: Remove this line to uncomment the test
+        /*TODO: Task 5: Remove this line to uncomment the tests
 
         //Unit Test 1:  TestToStringStartsAndEndsWithNewLine  -----------------------
 
@@ -105,11 +103,7 @@ namespace TechJobsOO.Tests
             var output = stringWriter.ToString();
 
             //verify
-            Assert.IsTrue(output.Contains("Name: Product tester"));
-            Assert.IsTrue(output.Contains("Employer: ACME"));
-            Assert.IsTrue(output.Contains("Location: Desert"));
-            Assert.IsTrue(output.Contains("Position Type: Quality control"));
-            Assert.IsTrue(output.Contains("Core Competency: Persistence"));
+            Assert.IsTrue(output.Contains($"Name: Product tester") && output.Contains("Employer: ACME") && output.Contains("Location: Desert") && output.Contains("Position Type: Quality control") && output.Contains("Core Competency: Persistence"));
 
         }
 
